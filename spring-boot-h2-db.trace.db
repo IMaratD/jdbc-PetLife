@@ -1,0 +1,28 @@
+2020-12-19 22:32:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]
+2020-12-19 22:34:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users WHERE id = ? [42102-200]
+2020-12-19 22:35:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]
+2020-12-19 22:41:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]
+2020-12-19 22:41:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]
+2020-12-19 22:42:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]
+2020-12-19 22:42:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+SELECT id, name, city, pet_age, typeOfAnimals, breed, pet_name, pet_gender FROM users ORDER BY id [42102-200]

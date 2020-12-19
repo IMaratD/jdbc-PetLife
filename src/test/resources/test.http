@@ -1,0 +1,37 @@
+http://localhost:8080/users
+
+###
+
+http://localhost:8080/users/1
+
+###
+
+http://localhost:8080/users/0/save?name=Sveta&city=Kazan&petAge=3&typeOfAnimal=2&breed=7&petName=Pushok&petGender=male
+
+###
+
+http://localhost:8080/users/1/save?name=Katya&city=Kazan&petAge=5&typeOfAnimal=1&breed=7&petName=Ponya&petGender=female
+
+###
+
+DELETE http://localhost:8080/users/10
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+"id": 0,
+"name": "Sveta",
+"city": "Kazan",
+"petAge" : 3,
+"typeOfAnimal": 2,
+"breed": "Scottish Fold",
+"petName": "Pushok",
+"petGender": "male"
+}
+
+###
+
+GET http://localhost:8080/users/search?breed=Akita

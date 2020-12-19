@@ -1,0 +1,30 @@
+http://localhost:8080/users
+
+###
+
+http://localhost:8080/users/5
+
+###
+
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "Sveta",
+  "city": "Kazan",
+  "petAge" : 3,
+  "typeOfAnimal": 2,
+  "breed": "Scottish Fold",
+  "petName": "Pushok",
+  "petGender": "male"
+}
+
+###
+
+GET http://localhost:8080/users/search?breed=Akita
+
+###
+
+
+DELETE http://localhost:8080/users/10
